@@ -1,0 +1,142 @@
+*{
+box-sizing: border-box;
+}
+
+body{
+    background: #55ffe5;
+    font-size: 17px;
+}
+
+.container{
+    background: lightgreen;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    width: 80%;
+    margin: 50px auto;
+    box-shadow: 0px 2px 20px 0px rgb(22, 51, 10);
+}
+
+#vo{
+    background: #23074d; 
+    background: -webkit-linear-gradient(to right, #cc5333, #23074d);
+    background: linear-gradient(to right, #cc5333, #23074d); 
+    margin: 15px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color:white;
+    border:none;
+    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+    cursor: pointer;
+}
+
+#vo:visited{
+background: #ccc;    
+}
+
+#vo:hover{
+    background: #23074d; 
+    background: -webkit-linear-gradient(to up,#23074d , #cc5333);
+    background: linear-gradient(to down, #23074d,#cc5333); 
+}
+
+.complex{
+    text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea:visited{
+    border: 2px solid orange;
+}
+
+textarea{
+    border: 2px solid orange;
+}
+
+textarea:hover{
+    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+}
+
+.pcholder:hover{
+    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+}
+
+textarea:visited{
+    border: 2px solid orange;
+}
+
+.contact_box{
+    background:white;
+    display: flex;
+}
+
+.cleft{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+
+.cright{
+    flex-basis: 40%;
+    padding: 40px;
+    background: #0ad860;
+}
+
+tr td:first-child{
+    padding-right: 20px;
+}
+
+tr td{
+    background:#27a75c ;
+    color: white;
+    padding-top: 8%;
+    padding: 5%;
+    padding-left: 1%;
+    padding-right: 20%;
+    font-weight: bolder;
+    font-size: 18px;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.photo{
+    background: white;
+    margin: 5px;
+    margin-top: 50px;
+}
+
+#reach_us{
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.wow{
+    font-weight: bolder;
+}
+
+#htag{
+    margin-left: 100%;
+    margin-right: 0%;
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+#htag2{
+    color: white;
+    margin-left: 0%;
+    margin-right: 120%;
+    font-weight: bolder;
+    font-size: 45px;
+}
